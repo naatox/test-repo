@@ -1,0 +1,80 @@
+/* App.css */
+
+:root {
+  --color-bg-gradient: linear-gradient(to bottom right, #f472b6, #ffffff);
+  --btn-pink-bg: #ec4899;
+  --btn-pink-hover: #db2777;
+  --btn-black-bg: #000000;
+  --btn-black-hover: #333333;
+}
+
+/* Contenedor principal */
+.app-container {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 100vh;
+  background: var(--color-bg-gradient);
+}
+
+/* Tarjeta interior */
+.app-card {
+  background: rgba(255, 255, 255, 0.9);
+  padding: 2rem;
+  border-radius: 1.5rem;
+  box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
+  max-width: 32rem;
+  text-align: center;
+  border: 2px solid var(--btn-pink-bg);
+}
+
+/* Texto del chiste */
+.joke-text {
+  margin: 1rem 0;
+  font-style: italic;
+  color: #000;
+}
+
+/* Grupo de botones */
+.button-group {
+  display: flex;
+  justify-content: center;
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+/* Botón rosa */
+.btn-pink {
+  background-color: var(--btn-pink-bg);
+  color: #ffffff;
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  border: none;
+  transition: background-color 0.2s ease;
+}
+.btn-pink:hover {
+  background-color: var(--btn-pink-hover);
+}
+
+/* Botón negro (si lo usas) */
+.btn-black {
+  background-color: var(--btn-black-bg);
+  color: var(--btn-pink-bg);
+  padding: 0.75rem 1.5rem;
+  border-radius: 9999px;
+  font-weight: 600;
+  border: none;
+  transition: background-color 0.2s ease;
+}
+.btn-black:hover {
+  background-color: var(--btn-black-hover);
+}
+
+/* Imagen de Snoopy */
+.snoopy-img {
+  margin-top: 1.5rem;
+  border-radius: 1rem;
+  transition: width 0.2s ease;
+  cursor: pointer;
+}

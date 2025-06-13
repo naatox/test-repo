@@ -1,0 +1,38 @@
+/* index.css - estilos generales */
+
+/* Reinicio de márgenes y relleno */
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+/* Altura y anchura completas para el root */
+html, body, #root {
+  height: 100%;
+  width: 100%;
+}
+
+/* Tipografía base y colores neutros */
+body {
+  font-family: system-ui, Avenir, Helvetica, Arial, sans-serif;
+  line-height: 1.5;
+  font-weight: 400;
+  background-color: #f8f8f8;
+  color: #000000;
+}
+
+/* Enlaces por defecto */
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+/* Botones estándar (pueden ajustarse en App.css) */
+button {
+  cursor: pointer;
+}
