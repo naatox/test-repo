@@ -1,7 +1,7 @@
 /* App.css */
 
 :root {
-  --color-bg-gradient: linear-gradient(to bottom right, #f472b6, #ffffff);
+  --color-bg-gradient: linear-gradient(to bottom right, #f472b6, #ffffff, #000000);
   --btn-pink-bg: #ec4899;
   --btn-pink-hover: #db2777;
   --btn-black-bg: #000000;
@@ -15,6 +15,7 @@
   justify-content: center;
   min-height: 100vh;
   background: var(--color-bg-gradient);
+  padding: 2rem;
 }
 
 /* Tarjeta interior */
@@ -24,6 +25,7 @@
   border-radius: 1.5rem;
   box-shadow: 0 10px 20px rgba(0, 0, 0, 0.2);
   max-width: 32rem;
+  width: 100%;
   text-align: center;
   border: 2px solid var(--btn-pink-bg);
 }
@@ -57,7 +59,7 @@
   background-color: var(--btn-pink-hover);
 }
 
-/* Botón negro (si lo usas) */
+/* Botón negro (opcional) */
 .btn-black {
   background-color: var(--btn-black-bg);
   color: var(--btn-pink-bg);
@@ -77,4 +79,24 @@
   border-radius: 1rem;
   transition: width 0.2s ease;
   cursor: pointer;
+}
+
+/* Ajustes específicos para iPhone y pantallas pequeñas */
+@media only screen and (max-width: 414px) {
+  .app-container {
+    padding: 1rem;
+  }
+  .app-card {
+    margin: 0;
+    padding: 1.5rem;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.15);
+  }
+  .button-group {
+    flex-direction: column;
+    gap: 0.75rem;
+  }
+  .btn-pink, .btn-black {
+    width: 100%;
+    padding: 0.75rem;
+  }
 }
