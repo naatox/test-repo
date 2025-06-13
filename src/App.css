@@ -1,7 +1,7 @@
 /* App.css */
 
 :root {
-  --color-bg-gradient: linear-gradient(to bottom right, #f472b6, #ffffff, #000000);
+  --color-bg-gradient: linear-gradient(to bottom right, #f472b6, #ffffff);
   --btn-pink-bg: #ec4899;
   --btn-pink-hover: #db2777;
   --btn-black-bg: #000000;
