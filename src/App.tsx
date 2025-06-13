@@ -18,8 +18,12 @@ function App() {
     '¿Por qué existen Los Prisioneros? Por La Ley.',
     '¿Cómo se dice pañuelo en japonés? Saka-moko.',
     '¿En qué se parece un cura a un huevo Kinder? En que nunca sabes qué te va a tocar.',
-
+    '¿Cómo se llama el perro sin patas? No sé, pero no va a venir.',
+    '¿Qué le dijo un semáforo a otro? No me mires que me estoy cambiando.',
+    '¿Cómo hace un limón? ¡Exprimir-te!',
+    '¿Qué le dice una iguana a su hermana gemela? Somos iguanitas.'
     
+
   ];
 
   // Rutas relativas a 'public/img'
