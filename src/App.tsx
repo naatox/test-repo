@@ -29,11 +29,15 @@ function App() {
   // Rutas relativas a 'public/img'
   const snoopyImages = [
     '/img/snoopy1.webp',
-    '/img/snoopy2.webp',
+    '/img/snoopy2.gif',
     '/img/snoopy3.webp',
     '/img/snoopy4.webp',
     '/img/snoopy5.webp',
     '/img/snoopy6.webp',
+    '/img/snoopy7.gif',
+    '/img/snoopy8.gif',
+    '/img/snoopy9.gif',
+    '/img/snoopy10.gif',
   ];
 
   // Estados de componente
@@ -61,8 +65,8 @@ function App() {
   return (
     <div className="app-container">
       <div className="app-card">
-        <h1>Gracias, Vignette</h1>
-        <p>GRACIAS NETTY POR TRAERME A MI CASA, TE QUIEROOOO</p>
+        <h1>Vignette</h1>
+        <p>TE QUIEROOOO NETTY</p>
 
         {/* Mostrar chiste */}
         <p className="joke-text">{currentJoke}</p>
@@ -70,7 +74,7 @@ function App() {
         {/* Botón para siguiente chiste */}
         <div className="button-group">
           <button onClick={handleJokeClick} className="btn-pink">
-            CLICK PARA UN CHISTE FOME DE AGRADECIMIENTO
+            CLICK PARA UN CHISTE FOME 
           </button>
         </div>
 
